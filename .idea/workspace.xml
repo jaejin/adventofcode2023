@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b56654e-b053-4494-9107-18b73f65127b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adventof2023.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day12.java" afterDir="false" />
+    <list default="true" id="5b56654e-b053-4494-9107-18b73f65127b" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/Day21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/Day22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/Game2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/Day31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/Day32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/Matrix2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -32,7 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  "associatedIndex": 7
 }]]></component>
   <component name="ProjectId" id="2ZAOSUUobDHJJF0oVOtZPLsZ095" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,31 +51,43 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Day12.executor": "Run",
+    "Application.Day21.executor": "Run",
+    "Application.Day22.executor": "Run",
+    "Application.Day31.executor": "Debug",
+    "Application.Day32.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/jaejin/Work/java/Adventof2023"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/82109/IdeaProjects/adventofcode2023",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="day3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\82109\IdeaProjects\adventofcode2023" />
+      <recent name="C:\Users\82109\IdeaProjects\adventofcode2023\src" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day3" />
+      <recent name="day2" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day12">
-    <configuration name="Day11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11" />
-      <module name="Adventof2023" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day32">
     <configuration name="Day12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day12" />
       <module name="Adventof2023" />
@@ -74,12 +95,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2.Day21" />
+      <module name="Adventof2023" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day2.Day22" />
+      <module name="Adventof2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.Day31" />
+      <module name="Adventof2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day3.Day32" />
+      <module name="Adventof2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day32" />
+        <item itemvalue="Application.Day31" />
+        <item itemvalue="Application.Day22" />
+        <item itemvalue="Application.Day21" />
         <item itemvalue="Application.Day12" />
-        <item itemvalue="Application.Day11" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-249ae16d76d6-d0fa0211" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,5 +169,16 @@
       <updated>1701861424402</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/day2/Day21.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
