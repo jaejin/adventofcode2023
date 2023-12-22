@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b56654e-b053-4494-9107-18b73f65127b" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D31.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/Day21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/Day22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/Game2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Day31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Day32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Matrix2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Pair.java" afterDir="false" />
+    <list default="true" id="5b56654e-b053-4494-9107-18b73f65127b" name="Changes" comment="day 3 완료">
+      <change afterPath="$PROJECT_DIR$/D41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/Card2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4/Day42.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +45,8 @@
     "Application.Day22.executor": "Run",
     "Application.Day31.executor": "Debug",
     "Application.Day32.executor": "Run",
+    "Application.Day41.executor": "Run",
+    "Application.Day42.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -82,26 +73,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day4" />
       <recent name="day3" />
       <recent name="day2" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day32">
-    <configuration name="Day12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day12" />
-      <module name="Adventof2023" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day2.Day21" />
-      <module name="Adventof2023" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day42">
     <configuration name="Day22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day2.Day22" />
       <module name="Adventof2023" />
@@ -141,13 +119,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day4.Day41" />
+      <module name="Adventof2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day4.Day42" />
+      <module name="Adventof2023" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day42" />
+        <item itemvalue="Application.Day41" />
         <item itemvalue="Application.Day32" />
         <item itemvalue="Application.Day31" />
         <item itemvalue="Application.Day22" />
-        <item itemvalue="Application.Day21" />
-        <item itemvalue="Application.Day12" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +172,20 @@
       <option name="presentableId" value="Default" />
       <updated>1701861424402</updated>
     </task>
+    <task id="LOCAL-00001" summary="day 3 완료">
+      <option name="closed" value="true" />
+      <created>1703234707878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703234707878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day 3 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 완료" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
